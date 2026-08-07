@@ -100,7 +100,7 @@ const isOwner = (userId) => adminIDs.includes(String(userId));
 
 // ========== CHECK CHANNELS FUNCTION ==========
 const checkUserJoinedChannels = async (userId) => {
-  const channels = ['@shadowofficial786', '@shadowbanproof'];
+  const channels = ['@skxwaji', 'skxwajibanproof'];
   let allJoined = true;
 
   for (const channel of channels) {
